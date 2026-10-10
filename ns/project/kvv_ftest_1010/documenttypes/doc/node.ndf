@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.kvv_ftest_1010.documenttypes:doc</value>
+    <value name="node_pkg">Kvv_FTest_1010Project</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">Karthik.V10@ibm.com</value>
+        <value name="createdByUserId">c774440a3d034fc59f4ec46e0471a42b</value>
+        <number name="createdDate" type="Long">1791631673151</number>
+        <value name="lastModifiedBy">Karthik.V10@ibm.com</value>
+        <value name="lastModifiedByUserId">c774440a3d034fc59f4ec46e0471a42b</value>
+        <number name="lastModifiedDate" type="Long">1791631673151</number>
+      </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
+      <value name="createdBy">Karthik.V10@ibm.com</value>
+      <value name="modifiedBy">Karthik.V10@ibm.com</value>
+      <value name="createdDate">2026-10-10T11:27:53.151290677Z</value>
+      <value name="lastModifiedDate">2026-10-10T11:27:53.151290677Z</value>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">value</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
