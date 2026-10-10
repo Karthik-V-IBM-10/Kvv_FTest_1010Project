@@ -9,7 +9,7 @@
     <value name="createdBy">Karthik.V10@ibm.com</value>
     <value name="createdDate">2026-10-10T11:28:35.500443783Z</value>
     <value name="modifiedBy">Karthik.V10@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-10T11:28:50.994009977Z</value>
+    <value name="lastModifiedDate">2026-10-10T11:29:39.306549152Z</value>
   </record>
   <value name="is_public">false</value>
   <value name="trigger_type">streaming-trigger</value>
