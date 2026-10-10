@@ -16,6 +16,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.kvv_ftest_1010.eventtriggers.T_T_:T_T_target
+  packages:
+  - name: Kvv_FTest_1010Project
+    version: "1.0"
 - serviceName: project.kvv_ftest_1010.streaming.connections:EmbeddedMessaging
   packages:
   - name: Kvv_FTest_1010Project
