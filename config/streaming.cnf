@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="StreamingConfiguration" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="name">Kvv_FTest_1010Project_project.kvv_ftest_1010.streaming.connections:EmbeddedMessaging</value>
+        <value name="description">This is the default embedded messaging account</value>
+        <value name="package">Kvv_FTest_1010Project</value>
+        <value name="type">Universal Messaging</value>
+        <value name="clientId">EM7e5aa97f32894bd8b07bf51e048e5326</value>
+        <value name="enabled">false</value>
+        <value name="other_properties"></value>
+        <value name="dynamic_properties">jms.username=admin
+jms.password=*****
+um.server.url=nhp://stage00-prod731523-um-0.int-prod731523.svc.cluster.local:9000/</value>
+        <value name="securityProtocol"></value>
+        <value name="truststoreAlias"></value>
+        <value name="keystoreAlias"></value>
+        <value name="keystoreKeyAlias"></value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
