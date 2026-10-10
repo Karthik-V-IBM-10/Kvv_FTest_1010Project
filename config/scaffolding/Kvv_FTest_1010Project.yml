@@ -7,6 +7,19 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+services:
+- serviceName: project.kvv_ftest_1010.eventtriggers.T_Q_:T_Q_target
+  packages:
+  - name: Kvv_FTest_1010Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
+- serviceName: project.kvv_ftest_1010.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: Kvv_FTest_1010Project
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
