@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.kvv_ftest_1010.streaming.connections.eventsource:ES_T</value>
+    <value name="node_pkg">Kvv_FTest_1010Project</value>
+    <value name="is_public">false</value>
+    <value name="field_name">ES_T</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <null name="field_opt"/>
+    <value name="originURI">Event Specification</value>
+    <null name="wrapper_type"/>
+    <value name="nillable">true</value>
+    <null name="field_xmlns"/>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">header</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <null name="wrapper_type"/>
+        <value name="nillable">true</value>
+        <null name="field_xmlns"/>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">timestamp</value>
+            <value name="field_type">object</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <value name="wrapper_type">java.lang.Long</value>
+            <value name="nillable">true</value>
+            <null name="field_xmlns"/>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">field</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">eventId</value>
+            <value name="field_type">object</value>
+            <value name="field_dim">0</value>
+            <value name="field_opt">true</value>
+            <null name="wrapper_type"/>
+            <value name="nillable">true</value>
+            <null name="field_xmlns"/>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+        </array>
+        <null name="rec_closed"/>
+        <null name="schemaRegistered"/>
+        <value name="modifiable">true</value>
+        <null name="schemaCompliant"/>
+        <null name="elementWrapper"/>
+        <null name="wrappedElement"/>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">value</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <null name="field_opt"/>
+        <null name="wrapper_type"/>
+        <value name="nillable">true</value>
+        <null name="field_xmlns"/>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <null name="rec_fields"/>
+        <null name="rec_closed"/>
+        <null name="schemaRegistered"/>
+        <value name="modifiable">true</value>
+        <null name="schemaCompliant"/>
+        <null name="elementWrapper"/>
+        <null name="wrappedElement"/>
+        <value name="rec_ref">project.kvv_ftest_1010.documenttypes:doc</value>
+      </record>
+    </array>
+    <null name="rec_closed"/>
+    <null name="schemaRegistered"/>
+    <record name="eventSpecificationDescription" javaclass="com.wm.util.Values">
+      <value name="referenceId">project.kvv_ftest_1010.streaming.connections.eventsource:ES_T</value>
+      <value name="packageName">Kvv_FTest_1010Project</value>
+      <value name="connectionAliasName">Kvv_FTest_1010Project_project.kvv_ftest_1010.streaming.connections:EmbeddedMessaging</value>
+      <value name="destinationName">/131724708/flf6f9f85edc294966bf7127412f8765ae/kvvT_S</value>
+      <value name="destinationType">TOPIC</value>
+      <value name="topicName">/131724708/flf6f9f85edc294966bf7127412f8765ae/kvvT_S</value>
+      <record name="keyCoder" javaclass="com.wm.util.Values">
+        <value name="type">NONE</value>
+        <value name="type_display">none</value>
+        <null name="parameters"/>
+      </record>
+      <record name="valueCoder" javaclass="com.wm.util.Values">
+        <value name="type">IDATA</value>
+        <value name="type_display">IData</value>
+        <record name="parameters" javaclass="com.wm.util.Values">
+          <array name="nameValue" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="name">documentTypeName</value>
+              <value name="value">project.kvv_ftest_1010.documenttypes:doc</value>
+            </record>
+          </array>
+        </record>
+        <value name="documentTypeName">project.kvv_ftest_1010.documenttypes:doc</value>
+      </record>
+    </record>
+    <value name="originURI">Event Specification</value>
+    <value name="modifiable">false</value>
+    <null name="schemaCompliant"/>
+    <null name="elementWrapper"/>
+    <null name="wrappedElement"/>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <value name="createdBy">Karthik.V10@ibm.com</value>
+      <value name="modifiedBy">Karthik.V10@ibm.com</value>
+      <value name="createdDate">2026-10-10T11:28:27.952884937Z</value>
+      <value name="lastModifiedDate">2026-10-10T11:28:27.952884937Z</value>
+    </record>
+  </record>
+</Values>
