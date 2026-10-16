@@ -5,6 +5,12 @@
   <value name="node_subtype">unknown</value>
   <value name="node_nsName">project.kvv_ftest_1010.eventtriggers:Trigger_Q</value>
   <value name="node_pkg">Kvv_FTest_1010Project</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Karthik.V10@ibm.com</value>
+    <value name="createdDate">2026-10-16T05:30:57.944231079Z</value>
+    <value name="modifiedBy">Karthik.V10@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-16T05:31:14.489539220Z</value>
+  </record>
   <value name="is_public">false</value>
   <value name="trigger_type">streaming-trigger</value>
   <record name="trigger" javaclass="com.wm.util.Values">
@@ -31,12 +37,18 @@
     <value name="pollingInterval">5</value>
     <value name="pollingIntervalUnit">SECONDS</value>
     <number name="pollingRequestSize" type="Integer">100</number>
-    <null name="aliasName"/>
+    <value name="aliasName">Kvv_FTest_1010Project_project.kvv_ftest_1010.streaming.connections:EmbeddedMessaging</value>
     <Boolean name="enabled">false</Boolean>
     <value name="transientFailureAction">NONE</value>
     <value name="failureAction">NONE</value>
     <null name="resourceMonitorSvc"/>
     <array name="source" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="label">Trigger_Q</value>
+        <value name="referenceId">project.kvv_ftest_1010.streaming.connections.eventsource:EventSpec_Q</value>
+        <null name="destinationName"/>
+        <null name="destinationType"/>
+      </record>
     </array>
     <record name="window" javaclass="com.wm.util.Values">
       <value name="type">SINGLE_EVENT</value>
@@ -44,13 +56,25 @@
       </record>
     </record>
     <array name="process" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="processId">Trigger_Q</value>
+        <array name="intermediate" type="record" depth="1">
+        </array>
+        <array name="terminal" type="record" depth="1">
+        </array>
+      </record>
     </array>
-  </record>
-  <value name="LOCK_REQUIRED">true</value>
-  <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Karthik.V10@ibm.com</value>
-    <value name="modifiedBy">Karthik.V10@ibm.com</value>
-    <value name="createdDate">2026-10-16T05:30:57.944231079Z</value>
-    <value name="lastModifiedDate">2026-10-16T05:30:57.944231079Z</value>
+    <record name="target" javaclass="com.wm.util.Values">
+      <value name="type">INVOKE_SERVICE</value>
+      <record name="parameters" javaclass="com.wm.util.Values">
+        <array name="nameValue" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">serviceName</value>
+            <value name="value">project.kvv_ftest_1010.eventtriggers.Trigger_Q_:Trigger_Q_target</value>
+          </record>
+        </array>
+        <value name="serviceName">project.kvv_ftest_1010.eventtriggers.Trigger_Q_:Trigger_Q_target</value>
+      </record>
+    </record>
   </record>
 </Values>
