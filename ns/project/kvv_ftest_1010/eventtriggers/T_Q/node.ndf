@@ -9,7 +9,7 @@
     <value name="createdBy">Karthik.V10@ibm.com</value>
     <value name="createdDate">2026-10-10T11:28:35.500443783Z</value>
     <value name="modifiedBy">Karthik.V10@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-28T11:43:06.752608628Z</value>
+    <value name="lastModifiedDate">2026-10-28T11:43:27.141502626Z</value>
   </record>
   <value name="is_public">false</value>
   <value name="trigger_type">streaming-trigger</value>
@@ -45,7 +45,7 @@
     <array name="source" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="label">T_Q</value>
-        <value name="referenceId">project.kvv_ftest_1010.streaming.connections.eventsource:ES_Q</value>
+        <value name="referenceId">project.kvv_ftest_1010.streaming.connections.eventsource:ES_T</value>
         <null name="destinationName"/>
         <null name="destinationType"/>
       </record>
